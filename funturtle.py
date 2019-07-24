@@ -50,6 +50,7 @@ gg.forward(75)
 gg.color('blue')
 gg.left(90)
 gg.forward(150)
+turtle.mainloop()
 
 
 
