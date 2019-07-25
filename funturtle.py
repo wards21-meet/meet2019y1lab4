@@ -61,8 +61,7 @@ def up():
 def down():
     turtle.back(10)
 def right():
-    turtle.right(45)
-        
+    turtle.right(45)        
 def left():
     turtle.left(45)
 
