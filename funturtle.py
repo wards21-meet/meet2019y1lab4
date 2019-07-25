@@ -50,6 +50,33 @@ gg.forward(75)
 gg.color('blue')
 gg.left(90)
 gg.forward(150)
+turtle.penup()
+turtle.goto(0,-300)
+turtle.pendown()
+
+
+#Movement
+def up():
+    turtle.forward(10)
+def down():
+    turtle.back(10)
+def right():
+    turtle.right(45)
+        
+def left():
+    turtle.left(45)
+
+turtle.onkeypress (up, "w")
+turtle.onkeypress (down, "s")
+turtle.onkeypress (right, "d")
+turtle.onkeypress (left, "a")
+
+turtle.pensize(20)
+turtle.pencolor('red')
+
+
+
+turtle.listen()
 turtle.mainloop()
 
 
